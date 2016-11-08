@@ -24,6 +24,6 @@ function aopc_js_alter(&$javascript) {
   // Swap out jQuery to use an updated version of the library.
   if ($replace_jquery) {
     $javascript['misc/jquery.js']['data'] = '//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js';
-    $javascript['misc/jquery.js']['data']['preprocess'] = 'FALSE';
+    $javascript['misc/jquery.js']['data']['preprocess'] = FALSE;
   }
 }
