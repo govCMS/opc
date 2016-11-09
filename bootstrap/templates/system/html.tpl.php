@@ -66,6 +66,7 @@
   <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
+  <script src="<?php echo drupal_get_path('theme', 'bootstrap'); ?>/js/misc/jquery.min.js"></script>
   <?php print $scripts; ?>
 </head>
 <body<?php print $body_attributes; ?>>
