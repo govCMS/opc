@@ -309,8 +309,6 @@ ul.quicktabs-tabs li a {
   clear:both;
 }
 
-.block-region {color:#000;}
-
 .block-bottom{
   background-color: #00163b;
   color: #fff;
@@ -1283,4 +1281,8 @@ td.views-field-field-image {
 
 a.register-now.waiting-list {
   font-size: 1.4em;
+}
+
+.page-admin-structure-block-demo .block-region {
+  color: #000 !Important;
 }
